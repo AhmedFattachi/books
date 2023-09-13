@@ -22,7 +22,7 @@
                 <div class="categorie">
                     <h1>category <i class="fa-solid fa-caret-down"></i></h1>
                     <div class="liste-categorie">
-                        <ul>
+                        <ul class="drop-down">
                             <li class="li">Adventure stories</li>
                             <li>Classics</li>
                             <li>Fantasy</li>
@@ -30,15 +30,12 @@
                             <li>Horror</li>
                             <li>Romance</li>
                             <li>Short stories</li>
-                        </ul>
-                        <ul>
                             <li>Adventure stories</li>
                             <li>Classics</li>
                             <li>Fantasy</li>
                             <li>Historical fiction</li>
                             <li>Horror</li>
                             <li>Romance</li>
-                            <li>Short stories</li>
                         </ul>
                     </div>
                 </div>
@@ -52,8 +49,15 @@
                 </div>
             </form>
             <div class="login">
-                <i class="fa-solid fa-bars"></i>
+                <div class="toggle">
+                    <i class="fa-solid fa-bars ouvrir"></i>
+                    <i class="fa-solid fa-x fermer"></i>
+                </div>
                 <i class="fa-solid fa-circle-user"></i>
+                <div class="connexion-down">
+                    <a  href=""><h1 class=" mot-connexion mot-cnx">Connexion</h1></a>
+                    <a  href=""><h1 class=" mot-register mot-cnx">Register</h1></a>
+                </div>
             </div>
         </nav>
     </header>
@@ -63,8 +67,8 @@
             <div class="bulbes">
                 <div class="background-gradient"></div>
                 <img id="bulbes" src="Images/Bulbes.svg" alt="">
-                <h4 id="ph-1">Shop your books now,</h4>
-                <h4 id="ph-2">Like never before</h4>
+                <h4 id="ph-1" class="title-main-image">Shop your books now,</h4>
+                <h4 id="ph-2" class="title-main-image">Like never before</h4>
             </div>
             <div class="main_image">
                 <img id="main_image" src="Images/Image.svg" alt="">
@@ -72,5 +76,6 @@
         </section>
         <div class="line"><hr></div>
     </main> 
+    <script src="Script.js"></script>
 </body>
 </html>
