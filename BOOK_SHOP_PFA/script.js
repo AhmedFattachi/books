@@ -14,7 +14,6 @@ const cardMargin = 10;
 let currentIndex = 0;
 const numCards = cards.length;
 
-// Clonez les cartes et ajoutez-les à la fin du carrousel
 const clonedCards = [...cards].map(card => card.cloneNode(true));
 clonedCards.forEach(clonedCard => {
     const wrapper = document.createElement('div');
@@ -46,7 +45,6 @@ function updateCarousel() {
     carousel.style.transition = 'transform 0.5s ease-in-out';
     carousel.style.transform = `translateX(${translateX}px)`;
 
-    // Gestion de la visibilité des boutons
     if (currentIndex === 0) {
         prevButton.style.display = 'none';
         nextButton.style.display = 'block';
@@ -59,7 +57,6 @@ function updateCarousel() {
     }
 }
 
-// Gestion initiale de la visibilité des boutons
 prevButton.style.display = 'none';
 if (numCards <= 1) {
     nextButton.style.display = 'none';
