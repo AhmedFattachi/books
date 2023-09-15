@@ -270,13 +270,14 @@ button{
     left: 190px;
     top: 270px;
 }
+
 .line-divesion-section{
     display: flex;
     justify-content: center;
 }
 
 .line-divesion-section hr{
-    width: 1000px;
+    width: 85%;
     background-color: rgb(255, 255, 255);
 }
 
@@ -301,29 +302,32 @@ button{
     position: relative;
     float: right;
     display: flex;
-    justify-content: space-between;
-    width: 80px;
     top: -72px;
     right: 211px;
 }
 
 .fa-circle-chevron-left{
+    position: absolute;
+    right: 1px;
+    margin: 5px;
     padding: 10px;
     border-radius: 99px;
-    display: none;
-
 }
 
 .fa-circle-chevron-right{
+    position: absolute;
+    margin: 5px;
     padding: 10px;
     border-radius: 99px;
     
 }
+
 .center-carousel-pb{
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
 .carousel-populair-books{
     width: 100vw;
     max-width: 1200px;
@@ -344,9 +348,9 @@ button{
     font-family: sans-serif;
 }
 
-.image-carte {
+.image-carte{
     width: 100%;
-    height: 70%;
+    height: 250px;
     border-radius: 10px 10px 0px 0px;
     cursor: pointer;
     opacity: 0.9;
@@ -357,18 +361,21 @@ button{
 }
 
 .infos-carte{
+    background: linear-gradient(to right, #1F3556, #161f2d, rgb(51, 41, 76));
     width: 100%;
-    height: 30%;
     border-radius: 0px 0px 10px 10px;
     letter-spacing: 0.3px;
 }
+
 .title-carte{
+    background: none;
     padding: 5px;
     font-size: 15px;
     color: white;
 }
 
 .type-carte{
+    background: none;
     padding: 5px;
     color: white;
     font-weight: 200;
@@ -379,12 +386,14 @@ button{
 }
 
 .price-carte-plus{
+    background: none;
     padding: 5px;
     display: flex;
     justify-content: space-between;
 }
 
 .price-carte{
+    background: none;
     padding: 5px;
     color: white;
     display: flex;
@@ -409,3 +418,4 @@ button{
     cursor: pointer;
 }
 
+/************************ BEST SELLERS ***************/
