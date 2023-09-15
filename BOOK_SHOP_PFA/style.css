@@ -300,19 +300,25 @@ button{
 .arrow-carousel{
     position: relative;
     float: right;
+    display: flex;
+    justify-content: space-between;
     width: 80px;
     top: -72px;
     right: 211px;
-    display: flex;
-    justify-content: space-between;
 }
 
-.fa-circle-chevron{
-    position: relative;
+.fa-circle-chevron-left{
     padding: 10px;
     border-radius: 99px;
+    display: none;
+
 }
 
+.fa-circle-chevron-right{
+    padding: 10px;
+    border-radius: 99px;
+    
+}
 .center-carousel-pb{
     width: 100%;
     display: flex;
@@ -323,10 +329,8 @@ button{
     max-width: 1200px;
     display: flex;
     justify-content: center;
-    overflow: scroll;
-    overflow-x: scroll;
+    overflow: hidden;
     scroll-behavior: smooth;
-    scrollbar-width:auto;
 }
 
 .content{
