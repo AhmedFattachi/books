@@ -62,11 +62,11 @@ if (numCards <= 1) {
     nextButton.style.display = 'none';
 }
 
-const carousel2 = document.querySelector('.content-bs'); // Remplacez '.content2' par le sélecteur approprié pour le deuxième carousel
-const cards2 = document.querySelectorAll('.carte-bestsellers-books'); // Remplacez '.carte-populair-books2' par le sélecteur approprié pour les cartes du deuxième carousel
-const prevButton2 = document.querySelector('.left-bs'); // Remplacez '.left2' par le sélecteur approprié pour le bouton précédent du deuxième carousel
-const nextButton2 = document.querySelector('.right-bs'); // Remplacez '.right2' par le sélecteur approprié pour le bouton suivant du deuxième carousel
-const cardWidth2 = cards2[0].offsetWidth + 10; // Ajustez la largeur de la carte du deuxième carousel si nécessaire
+const carousel2 = document.querySelector('.content-bs'); 
+const cards2 = document.querySelectorAll('.carte-bestsellers-books'); 
+const prevButton2 = document.querySelector('.left-bs'); 
+const nextButton2 = document.querySelector('.right-bs'); 
+const cardWidth2 = cards2[0].offsetWidth + 10;
 const cardMargin2 = 10; 
 let currentIndex2 = 0;
 const numCards2 = cards2.length;
