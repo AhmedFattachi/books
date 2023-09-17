@@ -442,45 +442,6 @@ button{
     margin-top: 50px;
 }
 
-.title-bs-books{
-    color: white;
-    margin: 30px;
-    height: 50px;
-    font-size: 30px;
-    letter-spacing: 1px;
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.center-carousel-bs{
-    width: 100%;
-    height: 450px;
-    display: flex;
-    justify-content: center;
-}
-
-.carousel-bestsellers-books {
-    width: 100vw;
-    max-width: 1200px;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    scroll-behavior: smooth;
-}
-
-.content-bs{
-    display: flex;
-} 
-
-.carte-bestsellers-books{
-    margin: 10px;
-    width: 180px;
-    border-radius: 10px;
-    font-family: sans-serif;
-}
 
 
 /**************************** MAIN SHOP *****************/
