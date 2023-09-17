@@ -329,80 +329,80 @@ button{
     
 }
 
-.center-carousel-pb{
-    width: 100%;
+.center-carousel-pb {
     display: flex;
     justify-content: center;
 }
 
-
-
-.carousel-populair-books{
-    width: 100vw;
+.carousel-populair-books {
     max-width: 1200px;
+    height: 450px;
     display: flex;
     justify-content: center;
     overflow: hidden;
-    overflow-x: scroll;
     scroll-behavior: smooth;
 }
 
-.content{
+.content {
     display: flex;
 }
 
-.carte-populair-books{
+.carte-populair-books {
+    background: linear-gradient(to right, #1F3556, #161f2d, rgb(51, 41, 76));
     margin: 10px;
     width: 180px;
+    height: 80%;
     border-radius: 10px;
     font-family: sans-serif;
 }
 
-.image-carte{
+.image-carte {
+    background: transparent;
     width: 100%;
-    height: 250px;
+    height: 65%;
     border-radius: 10px 10px 0px 0px;
     cursor: pointer;
-    opacity: 0.9;
+    opacity: 0.97;
 }
 
-.image-carte:hover{
+.image-carte:hover {
     opacity: 1;
 }
 
-.infos-carte{
-    background: linear-gradient(to right, #1F3556, #161f2d, rgb(51, 41, 76));
+.infos-carte {
     width: 100%;
+    height: 35%;
     border-radius: 0px 0px 10px 10px;
     letter-spacing: 0.3px;
 }
 
-.title-carte{
+.title-carte {
     background: none;
+    height: 25%;
     padding: 5px;
     font-size: 15px;
     color: white;
 }
 
-.type-carte{
+.type-carte {
     background: none;
     padding: 5px;
     color: white;
     font-weight: 200;
 }
 
-.line-divesion-carte{
+.line-divesion-carte {
     margin: 5px;
 }
 
-.price-carte-plus{
+.price-carte-plus {
     background: none;
     padding: 5px;
     display: flex;
     justify-content: space-between;
 }
 
-.price-carte{
+.price-carte {
     background: none;
     padding: 5px;
     color: white;
@@ -411,11 +411,11 @@ button{
     align-items: center;
 }
 
-.carte-plus i{
+.carte-plus i {
     background: none;
 }
 
-.carte-plus{
+.carte-plus {
     width: 25px;
     height: 25px;
     border-radius: 99px;
@@ -427,6 +427,7 @@ button{
     align-items: center;
     cursor: pointer;
 }
+
 /******************************************************************************************
 *******************************************************************************************
 *********************************** hez men hnaya css **********************/
@@ -453,6 +454,7 @@ button{
 
 .center-carousel-bs{
     width: 100%;
+    height: 450px;
     display: flex;
     justify-content: center;
 }
@@ -468,7 +470,7 @@ button{
 
 .content-bs{
     display: flex;
-}
+} 
 
 .carte-bestsellers-books{
     margin: 10px;
@@ -480,12 +482,52 @@ button{
 
 /**************************** MAIN SHOP *****************/
 
-.grid-general{
+.choice-category{
+    position: sticky;
+    top: 0;
+    height: 50px;
+    color: white;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+
+.choice-category.scrolled{
+    background-color: #979797ca;
+    backdrop-filter: blur(10px);
+    transition: 0.5s;
+}
+
+.choice-category.scrolled .btn-category{
+    background-color: white;
+    color: black;
+}
+
+.btn-category{
+    background: transparent;
+    outline: none;
+    height: 70%;
+    width: 100px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.188);
+    cursor: pointer;
+    font-family: sans-serif;
+    color: white;
+}
+.btn-category:hover{
+    font-size: 14px;
+    transition: 50ms;
+    box-shadow: 0.5px 0.5px 4px 0.1px white;
+}
+
+
+.grid-general{
+    margin-top: 30px;
     justify-content: center;
     width: 100vw;
     display: grid;
-    flex-wrap: wrap;
     grid-template-columns: repeat(6,auto);
     grid-gap: 20px;
     grid-auto-flow: dense;
