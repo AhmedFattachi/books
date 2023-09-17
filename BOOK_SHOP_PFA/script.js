@@ -118,3 +118,16 @@ prevButton2.style.display = 'none';
 if (numCards2 <= 1) {
     nextButton2.style.display = 'none';
 }
+
+/************ SCRIPT STICKY ***********/
+
+document.addEventListener('scroll', () => {
+    const element = document.querySelector('.choice-category');
+    const distance = element.getBoundingClientRect().top;
+
+    if (distance <= 0) {
+        element.classList.add("scrolled");
+    } else {
+        element.classList.remove("scrolled");
+    }
+});
