@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <script src="https://kit.fontawesome.com/8db117ee85.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main-addbook">
+        <section class="section-sidebar">
+            <nav class="side-bar">
+                <ul>
+                    <li class="li-side-bar--icons side-bar--logo">
+                        <a href="">
+                            <h4>LOGO</h4>
+                        </a>
+                    </li>
+                    <li class="li-side-bar--icons side-bar--username">
+                        <a class="a" href="">
+                            <img src="images/user-admin.svg" alt="">
+                            <h4 class="side-bar--description"><span>Username </span></h4>
+                        </a>
+                        </i>
+                    </li>
+                    <li class="li-side-bar--icons side-bar--addbook">
+                        <a href="">
+                            <img class="side-bar__img" src="images/add-book.svg" alt="">
+                            <h4 class="side-bar--description"><span>Add book</span></h4>
+                        </a>
+                    </li>
+                    <li class="li-side-bar--icons side-bar--deletebook">
+                        <a href="">
+                            <img src="images/delete-book.svg" alt="">
+                            <h4 class="side-bar--description"><span>Delete book</span></h4>
+                        </a>
+                    </li>
+                    <li class="li-side-bar--icons side-bar--modifybook">
+                        <a href="">
+                            <img src="images/modify-book.svg" alt="">
+                            <h4 class="side-bar--description"><span>modify book</span></h4>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <!-------------------    SECTION FORM.   ---------------------->
+        
+        <section class="section-sidebar-addbok">
+            <div class="content-form-addbook">
+                <form class="form-addbook" action="">
+                    <div class="book-details">
+                        <h3>Register a book</h3>
+                        <div class="title-and-category input-contents">
+                            <div class="title-and-category--child1">
+                                <label class="desc-input"  for=""><h6>Title</h6></label>
+                                <input type="text" placeholder="Enter the title" name="" id="">
+                            </div>
+                            <div class="title-and-category--child2">
+                                <label class="desc-input"  for=""><h6>Category</h6></label>
+                                <select   name="" id="">
+                                    <option value="">Fantasy</option>
+                                    <option value="">Adventure</option>
+                                    <option value="">Biography</option>
+                                    <option value="">Classic</option>
+                                    <option value="">Romance</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="writer-and-price input-contents">
+                            <div class="title-and-category--child1">
+                                <label class="desc-input" for=""><h6>Writer</h6></label>
+                                <input placeholder="Enter the writer" type="text">
+                            </div>
+                            <div class="title-and-category--child1">
+                                <label class="desc-input"  for=""><h6>Price</h6></label>
+                                <input placeholder="Enter the price" type="number">
+                            </div>
+                        </div>
+                        <div class="checkbox-populair-bestseller">
+                            <div class="ctn-checkbox1 ctn-checkbox">
+                                <input type="checkbox">
+                                <label for="">Populair book</label>
+                            </div>
+                            <div class="ctn-checkbox2 ctn-checkbox">
+                                <input type="checkbox">
+                                <label for="">Best seller</label>
+                            </div>
+                        </div>
+                        <div class="upload-container">
+                            <h6>Upload File</h6>
+                            <div class="file-input-container">
+                                <label for="file-input" class="file-label">
+                                    Drag files here or browse
+                                </label>
+                                <input type="file"  id="file-input" class="file-input">
+                            </div>
+                        </div>
+                        <button class="button-submit-addbook">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
