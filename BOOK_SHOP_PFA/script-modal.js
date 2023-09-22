@@ -2,7 +2,7 @@ const deleteModal = document.getElementById("delete-modal"),
     deleteBtn = document.getElementById("btn-delete"),
     closeModal = document.getElementById("btn-close"),
     cancelBtn = document.getElementById("btn-cancel"),
-    addBtn = document.getElementsByClassName("add__modal--btn"),
+    addBtn = document.getElementById("btn-add"),
     addModal = document.getElementById("add-modal");
 
     
