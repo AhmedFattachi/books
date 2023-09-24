@@ -44,11 +44,6 @@ tr {
     border-bottom: 0.2px solid gray;
 }
 
-input {
-    color: black;
-    padding: 5px;
-}
-
 .dashboard {
     background-color: #0E0A2D;
     background-image: url("images/Rectangle\ 27.svg");
@@ -287,6 +282,7 @@ thead{
 /************* Add MODAL ******/
 
 .add-modal{
+    display: none;
     position: fixed;
     z-index: 1;
     width: 100%;
